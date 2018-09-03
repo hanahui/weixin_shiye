@@ -1,0 +1,78 @@
+/* pages/grade/grade.wxss */
+.center {
+  position: fixed;
+  padding: 10% 8% 0 8%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(14, 13, 13, 0.774);
+}
+.tap {
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid #000; */
+  position: relative;
+  top:-500rpx;
+  z-index: 99;
+}
+.tapl {
+  width: 100%;
+  height: 10%;
+  background-color: #000;
+  /* border: 1px solid #000; */
+  position: relative;
+  top:-500rpx;
+  z-index: 99;
+}
+.crosswise {
+  position: relative;
+  overflow: hidden;
+  float: left;
+  margin-left: 1%;
+  width: 20%;
+  height: 80%;
+  margin-bottom: 15rpx;
+  /* border: 1px solid #000; */
+}
+.crosswise .top {
+  width: 100%;
+  height: 280rpx;
+  position: relative;
+}
+.crosswise .top .top_a {
+  position: absolute;
+  bottom: 20rpx;
+  width: 100%;
+  writing-mode:tb;
+  line-height: 150rpx;
+}
+.crosswise image {
+  /* position: absolute;
+  top: 50%; */
+  width: 150rpx;
+  height: 150rpx;
+}
+.crosswise .bottom {
+  margin-top: 50rpx;
+  width: 100%;
+  /* overflow: hidden; */
+}
+.crosswise .bottomn {
+  display: none;
+}
+.crosswise .bottom .bott {
+  color: red;
+  float: left;
+  writing-mode:tb-rl;
+}
+.img_title {
+  position: fixed;
+  bottom: 0;
+  margin-left: -8%;
+  width: 100%;
+  height: 200rpx;
+  overflow: hidden;
+  /* border: 1px solid #000; */
+}
+.img_title image {
+  width: 100%;
+}

@@ -1,0 +1,42 @@
+/* pages/home/home.wxss */
+.cutoms{
+  position: fixed;
+  top: 0;
+  height: 1000rpx;
+  width: 100%;
+  padding-left: 50%;
+  background-color: rgba(0, 0, 0, 0.034);
+  /* border: 1rpx solid #000; */
+}
+.box {
+  color: gray;
+  font-size: 50rpx;
+  margin-bottom: 15rpx;
+  /* display: inline-block; */
+  display: block;
+  line-height: 50rpx;
+  background-color: blue;
+}
+.boxs {
+  font-size: 50rpx;
+  display: block;
+  margin-bottom: 15rpx;
+  color: #000;
+  background-color: red;
+}
+.img_home {
+  width: 120rpx;
+  height: 120rpx;
+  margin-left: 120rpx;
+  margin-right: 120rpx;
+  margin-bottom: 100rpx;
+  /* border-radius: 50%; */
+  /* border: 1rpx solid #000; */
+}
+.home_none {
+  position: fixed;
+  bottom: 20rpx;
+  right: 20rpx;
+  width: 120rpx;
+  height: 120rpx;
+}

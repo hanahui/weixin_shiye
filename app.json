@@ -1,0 +1,19 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/level/level",
+    "pages/home/home",
+    "pages/evaluate/evaluate",
+    "pages/set/set",
+    "pages/break/break",
+    "pages/grade/grade",
+    "pages/learn/learn"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "我",
+    "navigationBarTextStyle":"black"
+  }
+}

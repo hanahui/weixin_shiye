@@ -1,0 +1,3 @@
+<view class="center">
+  <image catchtap='onlbtn' class='bag' src='{{url}}'></image>
+</view>

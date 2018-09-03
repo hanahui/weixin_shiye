@@ -1,0 +1,24 @@
+<!--pages/break/break.wxml-->
+<!-- <text>pages/break/break.wxml</text> -->
+<view></view>
+<view class="container">
+  <view class='cutoms'>
+   <view>
+    <image class='img_home'  src="{{level.url4}}"></image>
+    </view>
+    <view>
+    <image class='img_home' src="{{level.url3}}"></image>
+    </view>
+    <view>
+    <image class='img_home'  src="{{level.url2}}"></image>
+    </view>
+    <view>
+    <!-- <image class='img_home' catchtap='onCollectionTap' src="{{num==1?urls:level.url1}}" data-num='1'></image> -->
+    <image class='img_home' catchtap='onCollectionTap' wx:if="{{Collected}}" src="{{urls}}"></image>
+    <image class='img_home' wx:else catchtap='onCollectionTap' src="{{level.url1}}"></image>
+    <image  wx:if='{{Collected}}' bindtap='logBtn' class='home_e img_home'></image>
+    </view>
+  </view>
+  <!-- <navigator  url="../index/index" open-type="redirect"><image class='home_none' src='{{urls}}'></image></navigator> -->
+  <view></view>
+</view> 

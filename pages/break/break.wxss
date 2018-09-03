@@ -1,0 +1,38 @@
+/* pages/break/break.wxss */
+/* .container {
+  background-color: rgba(0, 0, 0, 0.034);
+} */
+.cutoms{
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  padding-left: 50%;
+  background-color: rgba(0, 0, 0, 0.034);
+  /* border: 1rpx solid #000; */
+}
+.img_home {
+  width: 200rpx;
+  height: 200rpx;
+  margin-left: 120rpx;
+  margin-right: 120rpx;
+  margin-bottom: 50rpx;
+  /* border-radius: 50%; */
+  /* border: 1rpx solid #000; */
+}
+.home_none {
+  position: fixed;
+  bottom: 20rpx;
+  right: 20rpx;
+  width: 120rpx;
+  height: 120rpx;
+}
+.home_e {
+  /* margin-left: -320rpx; */
+  position: relative;
+  top: -260rpx;
+  width: 200rpx;
+  height: 200rpx;
+  /* border: 1rpx solid #000; */
+  z-index: 99;
+}

@@ -1,0 +1,52 @@
+/* pages/evaluate/evaluate.wxss */
+.cutoms {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  /* border: 1rpx solid #000; */
+}
+.cutoms .bg {
+  width: 100%;
+  height: 100%;
+}
+.cutoms .home {
+  width: 100rpx;
+  height: 100rpx;
+  position: fixed;
+  right: 36rpx;
+  bottom: 28rpx;
+  /* border: 1px solid #000; */
+}
+.cutoms .home image {
+  width: 100%;
+  height: 100%;
+}
+/* .place {
+  height: 1000rpx;
+  width: 100%;
+  border: 1rpx solid red;
+}
+.sbottom {
+  position: relative;
+  border: 1rpx solid #000;
+  width: 99%;
+  height: 50rpx;
+}
+.sbottom view {
+  position: absolute;
+  border: 1rpx solid #000; 
+}
+.left{
+  left: 0;
+}
+.centre {
+  left: 40%;
+}
+.right {
+  right: 0;
+}
+.index {
+  width: 100rpx;
+  height: 100rpx;
+  border: 1rpx solid #000;
+} */

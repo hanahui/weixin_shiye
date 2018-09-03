@@ -1,0 +1,41 @@
+<!--pages/home/home.wxml-->
+<!-- <text>pages/home/home.wxml</text> -->
+<view class="container">
+  <view class='cutoms'> 
+    <!-- <view >
+    <image class='{{}} img_home' data-num='4' catchtap='changeOil'  
+    src='{{num==4?"level.url4":"url"}}'></image>
+    </view> -->
+    <!-- <view >
+    <image class='{{num==3?"box":"boxs"}} img_home' data-num='3' bindtap='changeOil'
+     src="{{level.url3}}"></image>
+    </view>
+    <view >
+    <image class='{{num==2?"box":"boxs"}} img_home' data-num='2' bindtap='changeOil'
+    src="{{level.url2}}"></image>
+    </view>
+    <view >
+    <image class='{{num==1?"box":"boxs"}} img_home' data-num='1' bindtap='changeOil' 
+     src="{{level.url1}}">1</image>
+    </view> -->
+    <!-- <view> -->
+    <!-- <image class='img_home' catchtap='onCollectionTap' wx:if="{{Collected}}" src="{{url}}"></image> -->
+    <!-- <image class='img_home'  src="{{level.url4}}"></image> -->
+    <!-- </view> -->
+    <!-- <view> -->
+    <!-- <image class='img_home' catchtap='onCollectionTap' wx:if="{{Collected}}" src="{{url}}"></image> -->
+    <!-- <image class='img_home' src="{{level.url3}}"></image>
+    </view>
+    <view> -->
+    <!-- <image class='img_home' catchtap='onCollectionTap' wx:if="{{Collected}}" src="{{url}}"></image> -->
+    <!-- <image class='img_home'  src="{{level.url2}}"></image>
+    </view>
+    <view>
+    <image class='img_home' catchtap='onCollectionTap' wx:if="{{Collected}}" src="{{url}}"></image>
+    <image class='img_home' wx:else catchtap='onCollectionTap' src="{{level.url1}}" data-num='1'></image>
+    </view> -->
+    <navigator url="../evaluate/evaluate" open-type="redirect"> 完成，跳转到评价页面</navigator>
+  </view>
+  <!-- <navigator  url="../index/index" open-type="redirect"><image class='home_none' src='{{url}}'></image></navigator> -->
+  <!-- <view></view> -->
+</view> 
