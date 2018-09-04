@@ -60,7 +60,7 @@
   display: none;
 }
 .crosswise .bottom .bott {
-  color: red;
+  color:#e94c43;
   float: left;
   writing-mode:tb-rl;
 }

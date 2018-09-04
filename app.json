@@ -8,7 +8,8 @@
     "pages/set/set",
     "pages/break/break",
     "pages/grade/grade",
-    "pages/learn/learn"
+    "pages/learn/learn",
+    "pages/stap/stap"
   ],
   "window":{
     "backgroundTextStyle":"light",

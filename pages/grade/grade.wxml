@@ -2,9 +2,9 @@
 <view>
 <view class='center'>
 <!-- 设置默认第一个显示红色 -->
-  <view class='crosswise crosswise_1'>
+  <view class='crosswise crosswise_1' >
     <view class='top'>
-      <view class='top_a'>{{time.fifteen}}</view>
+      <view class='top_a'>{{time[0].txt}}</view>
     </view>
     <image  id='1'  bindtap='onlbtn' src='{{num==1?imgurl.url1n:imgurl.url1}}' data-num='1'></image>
     <!-- <image class='' src='{{imgurl.url1}}'></image> --> 
@@ -17,7 +17,7 @@
   </view>
     <view class='crosswise' >
         <view class='top'>
-          <view class='top_a'>{{tips.no}}</view>
+          <view class='top_a'>{{tips[0].txt}}</view>
         </view>
         <image id='2'  bindtap='onlbtn' src='{{num==2?imgurl.url2:imgurl.url2n}}' data-num='2'></image>
         <!-- <image class='' src='{{imgurl.url2n}}'></image> -->
@@ -32,7 +32,7 @@
 
   <view class='crosswise crosswise_3'>
     <view class='top'>
-      <view class='top_a'>{{wrong.no}}</view>
+      <view class='top_a'>{{wrong[0].txt}}</view>
     </view>
     <!-- <image class='' src='{{imgurl.url3}}'></image> -->
     <image id='3'  bindtap='onlbtn' src='{{num==3?imgurl.url3n:imgurl.url3}}' data-num='3'></image>

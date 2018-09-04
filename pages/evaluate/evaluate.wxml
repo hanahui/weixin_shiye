@@ -1,5 +1,7 @@
 <!--pages/evaluate/evaluate.wxml-->
 <view class='cutoms'>
+<navigator class='bg' url='../stap/stap' open-type="redirect">
   <image class='bg' src='{{imgurl.url1}}'></image>
-  <navigator class='home' url="../index/index" open-type="redirect"><image src='{{url}}'></image></navigator>
+</navigator>
+  <navigator class='home' url="../level/level" open-type="redirect"><image src='{{url}}'></image></navigator>
 </view>

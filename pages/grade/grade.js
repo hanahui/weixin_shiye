@@ -14,26 +14,28 @@ Page({
       url3:'../../img/wrong.png',
       url3n: '../../img/wrong_no.png',
       url4:'../../img/result.png',
-      url4n:'../../img/result_no.jpg'
+      url4n:'../../img/result_no.png'
     },
     imgtitle:'../../img/slider_ver.png',
-    time:{
-      fifteen:'十五秒时间',
-      ten:'十秒时间'
-    },
-    tips:{
-      yes:'有线索',
-      no:'无线索'
-    },
-    wrong:{
-      no:'不带干扰字',
-      one:'带一个干扰字',
-      two:'带二个干扰字',
-      three:'带三个干扰字',
-      four:'带四个干扰字',
-      five:'带五个干扰字',
-      six:'带六个干扰字'
-    },
+
+    time:[
+      { url1:'../../ img / time.png', txt: '十五秒时间'},
+      { url1:'../../img/time_no.png', txt:'十秒钟的时间'}
+    ],
+    tips:[
+      {url2: '../../img/tips_yes.png', txt: '有线索',},
+      {url2: '../../img/tips_no.png', txt: '无线索',},
+      {}
+    ],
+    wrong:[
+      { txt: '不带干扰字', url3:'../../img/wrong.png'},
+      { txt: '带一个干扰字', url3:'../../img/wrong_no.png'},
+      { txt: '带二个干扰字', url3: '../../img/wrong.png'},
+      { txt: '带三个干扰字', url3: '../../img/wrong.png'},
+      { txt: '带四个干扰字', url3: '../../img/wrong.png'},
+      { txt: '带五个干扰字', url3: '../../img/wrong.png'},
+      { txt: '带六个干扰字', url3: '../../img/wrong.png'}
+    ],
     result:{
       one:'六局一胜',
       two: '六局二胜',
@@ -54,13 +56,13 @@ Page({
     // console.log('跳转到游戏页面');
   },
   // 点击特效函数
-  onltime:function(){
+  // onltime:function(){
     // 计数器
-    let a = stop;
+    // let a = stop;
     // 点击一次加一
     // 根据计数器的值来显示选则的时间
     // 最多点击n次，否则计数器清零
-  },
+  // },
 
   onlbtn: function (e) {
      // console.log(this);

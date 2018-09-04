@@ -1,0 +1,8 @@
+<!--pages/stap/stap.wxml-->
+<!-- <text>pages/stap/stap.wxml</text> -->
+<view class='cutoms'>
+<navigator class='bg' url='../level/level' open-type='redirect'>
+ <image class='bg' src='{{url}}'></image>
+</navigator>
+</view>
+
