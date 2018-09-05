@@ -17,6 +17,7 @@ Page({
       url4n:'../../img/result_no.png'
     },
     imgtitle:'../../img/slider_ver.png',
+    imgnext:'../../img/jiantou.png',
 
     time:[
       { url1:'../../ img / time.png', txt: '十五秒时间'},

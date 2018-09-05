@@ -3,13 +3,16 @@
 <view class='bag'>
 <image class='level' src='{{url}}'></image>
 </view>
-<view class='btn'>
+<view class='btn' bindtap='onltagge'>
 <image class='btnimg' src='{{urls}}' ></image>
 </view>
-<view class='{{}} tag' >
-<image src='{{urlx.set}}' catchtap='onlset' >设置</image>
-<image src='{{urlx.break}}' bindtap='onlbreak'>闯关</image>
-<image src='{{urlx.leam}}' bindtap='onllearn'>学习</image>
-<!-- <image src='{{urlx.home}}'></image> -->
+<view class='vilue'>
+    <view class='{{tagge == true ? "none":"tag"}}' data-tagge='false'>
+    <image src='{{urlx.set}}' catchtap='onlset' >设置</image>
+    <image src='{{urlx.break}}' bindtap='onlbreak'>闯关</image>
+    <image src='{{urlx.leam}}' bindtap='onllearn'>学习</image>
+    <!-- <image src='{{urlx.home}}'></image> -->
+    </view>
 </view>
+
 </view>

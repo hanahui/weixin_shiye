@@ -2,7 +2,8 @@
 <view>
 <view class='center'>
 <!-- 设置默认第一个显示红色 -->
-  <view class='crosswise crosswise_1' >
+<!-- 显示此关卡难度 -->
+  <view class='crosswise crosswise_1'>
     <view class='top'>
       <view class='top_a'>{{time[0].txt}}</view>
     </view>
@@ -56,8 +57,15 @@
     </view>
     <view class='{{num==4?"tap":" "}}' bindtap='onlbtnhome' ></view>
   </view>
+  <!-- 切换诗句 -->
  <view class='img_title'>
-  <image src='{{imgtitle}}'></image>
+ <!-- on -->
+  <image class='right' src='{{imgnext}}'></image>
+
+  <!-- 显示诗句位置 -->
+  <text>静夜思</text>
+  <!-- next -->
+  <image class='left' src='{{imgnext}}'></image>
  </view>
 </view>
 </view>

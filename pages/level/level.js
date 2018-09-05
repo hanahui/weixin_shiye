@@ -5,6 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+  tagge:false,
    url:'../../img/map.jpg',
    urls:'../../img/button.png',
    urlx:{
@@ -18,7 +19,14 @@ Page({
      learn:'../learn/learn'
    }
   },
-
+  onltagge:function(){
+    let teg = this.data.tagge;
+    // console.log(this.data.tagge);
+    teg = !teg
+    this.setData({
+      tagge:teg
+    })  
+  },
   onlset: function () {
     console.log('options');
     wx.navigateTo({
