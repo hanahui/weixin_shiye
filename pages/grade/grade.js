@@ -5,7 +5,21 @@ Page({
    * 页面的初始数据
    */
   data: {
+    shiju: [
+      '静夜思',
+      {title:'登黄鹤楼',shi:'故人西辞黄鹤楼'},
+      '悯农',
+      '长恨歌',
+      '鹅鹅鹅',
+      '后庭花',
+      '忆江南'
+    ],
+    indicatorDots: false, //是否显示面板指示点
+    autoplay: false, //是否自动切换
+    interval: 3000, //自动切换时间间隔,3s
+    duration: 1000, //  滑动动画时长1s
     num: 1 ,
+    swiperCurrent:0,
     imgurl:{
       url1:'../../img/time.png',
       url1n: '../../img/time_no.png',
@@ -18,7 +32,7 @@ Page({
     },
     imgtitle:'../../img/slider_ver.png',
     imgnext:'../../img/jiantou.png',
-
+    imgshouzhi: '../../img/shouzhi.png',
     time:[
       { url1:'../../ img / time.png', txt: '十五秒时间'},
       { url1:'../../img/time_no.png', txt:'十秒钟的时间'}
@@ -64,6 +78,12 @@ Page({
     // 根据计数器的值来显示选则的时间
     // 最多点击n次，否则计数器清零
   // },
+  swiperChange: function (e) {
+    console.log(e);
+    this.setData({
+      swiperCurrent: e.detail.current   //获取当前轮播图片的下标
+    })
+  },
 
   onlbtn: function (e) {
      // console.log(this);

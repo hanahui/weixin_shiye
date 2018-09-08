@@ -60,10 +60,23 @@
   <!-- 切换诗句 -->
  <view class='img_title'>
  <!-- on -->
-  <image class='right' src='{{imgnext}}'></image>
-
+  <image  class='right' src='{{imgnext}}'></image>
+  <image  class='shouzhi Lshou' src='{{imgshouzhi}}'></image>
+  <image  class='shouzhi Rshou' src='{{imgshouzhi}}'></image>
   <!-- 显示诗句位置 -->
-  <text>静夜思</text>
+  <swiper bindchange="swiperChange" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" vertical="{{isVertical}}" duration="{{duration}}" circular='false' class="shi">
+    <swiper-item  wx:for="{{shiju}}" wx:for-index="{{index}}" wx:key="true" class="text">
+      <text>{{item}}</text>
+    </swiper-item>
+    <!-- <swiper-item>
+      <view class='text_left cen'>{{shiju[0]}}</view>
+      <view class='text_cen cen'>{{shiju[1]}}</view>
+      <view class='text_right cen'>{{shiju[2]}}</view>
+    </swiper-item> -->
+</swiper>
+<!-- 添加蒙版 -->
+  <!-- <view class='mb_left'></view>
+  <view class='mb_right'></view> -->
   <!-- next -->
   <image class='left' src='{{imgnext}}'></image>
  </view>

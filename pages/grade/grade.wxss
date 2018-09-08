@@ -71,18 +71,79 @@
   width: 100%;
   height: 200rpx;
   overflow: hidden;
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
 }
 .img_title image {
   position: absolute;
   top:60rpx;
-  width: 20%;
-  height: 20rpx;
 }
 .right {
+  width: 20%;
+  height: 20rpx;
   transform:rotate(180deg);
   left: 20rpx;
 }
 .left {
+  width: 20%;
+  height: 20rpx;
   right: 20rpx;
 }
+.shouzhi {
+  margin-top: 30rpx;
+  width: 80rpx;
+  height: 80rpx;
+}
+.Lshou {
+  left: 13%;
+}
+.Rshou {
+  right: 13%;
+}
+swiper { 
+  width: 100%;
+}
+.shi {
+  position: relative;
+}
+.text {
+  display: inline-block;
+  /* border: 1rpx solid #000; */
+  text-align: center;
+  width: 33.3% !important;
+  overflow: hidden;
+}
+.mb_left{
+  background:  rgba(14, 13, 13, 0.774);
+  width: 33.3%;
+  height: 50rpx;
+  opacity: 0.5;
+  position: fixed;
+  bottom: 150rpx;
+  left: 0;
+}
+.mb_right {
+  height: 100%;
+  width: 33.3%;
+  opacity: 0.5;
+  float: right;
+}
+.cen {
+  position: absolute;
+}
+.text_left{
+  opacity:0.5;
+  /* left:50rpx; */
+  /* background: linear-gradient(left, red,blue); */
+  right: 75%;
+}
+.text_cen{
+  width: 100%;
+  /* background-color: red; */
+  text-align: center;
+}
+.text_right{
+  opacity:0.5;
+  /* right:50rpx; */
+  left: 75%;
+}
+
